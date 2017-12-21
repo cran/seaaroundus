@@ -1,0 +1,24 @@
+Package: seaaroundus
+Title: Sea Around Us API Wrapper
+Description: Access Sea Around Us (<http://www.seaaroundus.org/>) fish 
+    catch data, including tools for visualizing the data.
+Version: 1.2.0
+Authors@R: c(
+    person("Scott", "Chamberlain", role = c("aut", "cre"),
+      email = "myrmecocystus+r@gmail.com"),
+    person("Robert Scott", "Reis", email = "reis.robert.s@gmail.com", role="aut")
+  )
+Depends: R (>= 3.2.2)
+License: Apache License 2.0
+LazyData: true
+Imports: crul (>= 0.4.0), jsonlite, ggplot2, grid, scales, sp, rgdal,
+        maps, wicket (>= 0.4.0)
+Suggests: roxygen2 (>= 6.0.1), testthat
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2017-12-21 05:30:59 UTC; sckott
+Author: Scott Chamberlain [aut, cre],
+  Robert Scott Reis [aut]
+Maintainer: Scott Chamberlain <myrmecocystus+r@gmail.com>
+Repository: CRAN
+Date/Publication: 2017-12-21 13:03:11 UTC
